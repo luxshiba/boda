@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+.fecha{
+display:list-item;
+font-family: 'water Brush',cursive;
+padding: 10px;
+font-size: 30px;
+text-align: center;
+align-items: center;
+color: rgb(9, 155, 131);
+letter-spacing: 10px;
+}
+
+
+
+/* ? ----- Cuenta Regresiva ----- */
+#cuenta {
+	display: flex;
+	justify-content: center;
+	font-family: 'Water Brush', cursive;
+	color: rgb(22, 136, 139);
+	
+}
+
+.simply-section {
+	width: 165px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+
+}
+
+.simply-amount {
+	font-size: 30px;
+	font-weight: 700;
+	padding: 10px;
+
+}
+.simply-word {
+	font-weight: 300;
+	font-size: 30px;
+}
+

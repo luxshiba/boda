@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Lovers+Quarrel&family=Passions+Conflict&family=Roboto:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Basic&family=Inconsolata:wght@700&family=Lato:wght@300&family=League+Spartan:wght@500;600;700&family=Lovers+Quarrel&family=Passions+Conflict&family=Roboto:wght@300;400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.names {
+  background-image: url("/css/img/bg_anillos1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+h1 {
+  /* font-family: 'Tangerine', serif;*/
+  font-family: "Tangerine", serif;
+  font-size: 80px;
+  font-weight: lighter;
+  color: #554687;
+  text-align: center;
+  margin-top: 60px;
+  text-shadow: 4px 4px 4px #aaa;
+
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-direction: alternate;
+  animation-delay: 2s;
+  animation-fill-mode: initial;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 200%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+h2 {
+  font-family: "Gentium Basic", serif;
+  /* font-family: 'Lato', sans-serif;*/
+  margin-top: 30px;
+  color: #566270;
+  text-align: center;
+  font-size: 25px;
+}
+
+p {
+  margin-top: 20px;
+  font-family: "Gentium Basic", serif;
+  font-size: 25px;
+  font-weight: 200;
+  color: #566270;
+  text-align: center;
+}
+
+.date {
+  margin-top: 50px;
+  font-family: "Gentium Basic", serif;
+  font-size: 45px;
+  color: #566270;
+  text-align: center;
+}
+
+/* ? ----- Cuenta Regresiva ----- */
+#contador {
+  display: flex;
+  justify-content: center;
+  font-family: "Gentium Basic", serif;
+  color: #566270;
+  margin-bottom: 80px;
+}
+
+.simply-section {
+  width: 165px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.simply-amount {
+  font-size: 30px;
+  font-weight: 500;
+  padding: 10px;
+}
+
+.simply-word {
+  font-weight: 200;
+  font-size: 25px;
+}
+
+.fa-church {
+  font-size: 36px;
+  color: #566270;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ceremony {
+  margin-bottom: 99px;
+}
+
+.location {
+  display: grid;
+  justify-content: center;
+}
+
+.fa-champagne-glasses {
+  font-size: 36px;
+  margin: 0 650px;
+  color: #566270;
+  align-content: center;
+  display: grid;
+  justify-content: center;
+}
+
+.reception {
+  margin-bottom: 100px;
+}
